@@ -14,6 +14,14 @@
 
             </li>
 
+            <li class="nav-item @if(request()->url() === route('index.users')) active @endif"><a href="{{route('index.users')}}"><i class="la la-group"></i><span
+                        class="menu-title" data-i18n="nav.add_on_drag_drop.main">{{__('admin/sidebar.users_dashboard')}}</span>
+                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Admin::count()}}</span>
+
+                </a>
+
+            </li>
+
             <li class="nav-item @if(request()->url() === route('index.category')) active @endif"><a href="{{route('index.category')}}"><i class="la la-sliders"></i><span
                         class="menu-title" data-i18n="nav.add_on_drag_drop.main">{{__('admin/sidebar.category')}} </span>
                     <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::count()}}</span>

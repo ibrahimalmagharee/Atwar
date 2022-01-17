@@ -63,6 +63,18 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
 
         ##################  AboutUs Routes #############################################################
 
+        Route::group(['prefix' => 'users-dashboard'], function (){
+            Route::get('', 'UsersDashboardController@index')->name('index.users');
+            Route::post('save', 'UsersDashboardController@store')->name('save.user');
+            Route::get('edit/{id}', 'UsersDashboardController@edit')->name('edit.user');
+            Route::post('update/{id}', 'UsersDashboardController@update')->name('update.user');
+            Route::get('delete', 'UsersDashboardController@destroy')->name('delete.user');
+
+        });
+        ######################### End AboutUs Routes #############################################################
+
+        ##################  AboutUs Routes #############################################################
+
         Route::group(['prefix' => 'about-us'], function (){
             Route::get('/show-about-us', 'AboutUsController@index')->name('index.about_us');
             Route::post('save', 'AboutUsController@store')->name('save.about_us');

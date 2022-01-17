@@ -10,6 +10,7 @@ return [
     'confirm_password' => 'تأكيد كلمة المرور',
     'update' => 'تحديث',
     'name.required' => 'يرجى ادخال الاسم',
+    'name.max' => 'يجب ان لا يتجاوز الاسم عن 200 حرف ',
     'email.required' => 'يرجى ادخال البريد الالكتروني',
     'email.email' => 'يرجى التحقق من صيعة البريد الالكتروني المدخل',
     'email.unique' => 'هذا الايميل موجود من قبل يرجى التحقق من البريد الالكتروني االمدخل',
@@ -342,6 +343,15 @@ return [
     'the_social_link_is_not_available' => 'هذا الرابط غير موجود',
     'social_link_updated_successfully' => 'تم تحديث الرابط بنجاح',
     'social_link_has_been_successfully_deleted' => 'تم حذف الرابط بنجاح',
+
+    //  Users Dashboard
+    'add_a_new_user' => 'إضافة مستخدم جديد',
+    'alert_delete_user' => 'هل أنت متأكد من حذف هذا المستخدم !!',
+    'edit_user' => 'تعديل ',
+    'the_user_has_been_successfully_added' => 'تم اضافة المستخدم بنجاح',
+    'the_user_is_not_available' => 'هذا المستخدم غير موجود',
+    'user_updated_successfully' => 'تم تحديث المستخدم بنجاح',
+    'user_has_been_successfully_deleted' => 'تم حذف المستخدم بنجاح',
 
 
 

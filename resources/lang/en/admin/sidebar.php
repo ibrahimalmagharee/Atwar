@@ -27,5 +27,6 @@ return [
     'contact_information' => 'Contact Information',
     'useful_links' => 'Useful Links',
     'social_link' => 'Social Link',
+    'users_dashboard' => 'Users Dashboard',
 
 ];

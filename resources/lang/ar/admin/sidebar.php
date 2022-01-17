@@ -27,5 +27,6 @@ return [
     'contact_information' => 'معلومات التواصل',
     'useful_links' => 'الروابط المفيدة',
     'social_link' => 'روابط التواصل الاجتماعي',
+    'users_dashboard' => ' المستخدمين',
 
 ];

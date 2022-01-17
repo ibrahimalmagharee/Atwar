@@ -10,6 +10,7 @@ return [
     'confirm_password' => 'Confirm Password',
     'update' => 'Update',
     'name.required' => 'Please Enter The Name',
+    'name.max' => 'The name must not exceed 200 characters ',
     'email.required' => 'Please Enter The Email',
     'email.email' => 'Please Check The Email Formula Entry',
     'email.unique' => 'This Email Is Existed. Please Check Your Email Entry',
@@ -341,6 +342,17 @@ return [
     'the_social_link_is_not_available' => 'This link does not exist',
     'social_link_updated_successfully' => 'Link updated successfully',
     'social_link_has_been_successfully_deleted' => 'Link deleted successfully',
+
+
+
+    //  Users Dashboard
+    'add_a_new_user' => 'Add A New User',
+    'alert_delete_user' => 'Are you sure to delete the user !!',
+    'edit_user' => 'Edit ',
+    'the_user_has_been_successfully_added' => 'The User has been added successfully',
+    'the_user_is_not_available' => 'This user does not exist',
+    'user_updated_successfully' => 'User updated successfully',
+    'user_has_been_successfully_deleted' => 'User deleted successfully',
 
 
 ];
